@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MonitorVista</class>
+ <widget class="QMainWindow" name="MonitorVista">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>469</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>VISTA TEMPORIZADOR</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tblVista">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>51</y>
+      <width>411</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>CodCinta</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Titulo_Cinta</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Genero</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Año</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>15</y>
+      <width>431</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(54, 132, 185);</string>
+    </property>
+    <property name="text">
+     <string>TEMPORIZADOR DE VISTA</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnMostrar">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>370</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>MOSTRAR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnBorrar">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>370</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>BORRAR</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>420</y>
+      <width>391</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 85, 127);</string>
+    </property>
+    <property name="text">
+     <string>Desarrollador: Jonathan Vera Segura</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>440</y>
+      <width>411</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 85, 127);
+color: rgb(255, 85, 0);</string>
+    </property>
+    <property name="text">
+     <string>Empresa: Anonimo</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
